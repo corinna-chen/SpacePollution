@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> </title>
+    <link href="planetplans.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+  
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="planetplans.html">Moving Day!</a></li>
+            <li><a href="takeaction.html">Take Action!</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </nav>
+
+    <h1 id = "top"> Plan Aplhabet </h1>
+    <div id="intro" class = "planets">
+        <h2> You saw the nagivation bar! It's moving day!!! </h2>
+        <p>The earth has been dying but hasn't died and you're sick of it! You have decided to impulsively move off the earth! You open up your high tech computer to find the best place to live! Luckily, this website from the warm ages has your back and did all the research for you!<p>
+        <div class = "center">
+            <button onclick="nextMercury()" class = "middlebtnnext"><a href="#top">what are our options?</a></button>
+        </div>
+    </div>
+
+    <div id="mercury" class = "planets">
+        <h2> Mercury </h2>
+
+        <div class = "chart"> 
+            <div class = "portfolio">
+                <h3> Portfolio </h3>
+                <table class="table">
+                    <tr>
+                        <th>category</th>
+                        <th>info</th> 
+                    </tr>
+                    <tr>
+                        <td>Temperature</td>
+                        <td>-173 to 427 degrees celsius</td>
+                    </tr>
+                    <tr>
+                        <td>Days in a year</td>
+                        <td>88 days</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class = "imgright">
+                <img class = "planetimg" src = "pictures/mercury.png"> 
+            </div>
+        </div>
+
+        <p> Mercury is super hot or super cold! You'll get sick of the heat during the day and sick of the cold at night. A day on Mercury lasts about 176 earth days so you have time to enjoy (or complain) about the fridged or boiling weather. Mercury has lots of craters, which translates into a lots of rolled ankles. There is also no proof of life on Mercury so you will either be the first or... welp that got dark. In conclusion, if you have strong ankles, like the extreme, and are a risk taker Mercury may be right for you! </p>
+        
+        <button class = "next" onclick = "nextVenus()"><a href="#top"> next ></a></button>
+    </div>
+
+    <div id="venus" class = "planets">
+        <h2> Venus </h2>
+        <div class = "chart">
+            <div class = "portfolio">
+                <h3> Portfolio </h3>
+                <table class="table">
+                    <tr>
+                        <th>category</th>
+                        <th>info</th> 
+                    </tr>
+                    <tr>
+                        <td>Temperature</td>
+                        <td>462 degrees celsius</td>
+                    </tr>
+                    <tr>
+                        <td>Days in a year</td>
+                        <td>225 days</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class = "imgright">
+                <img class = "planetimg" src = "pictures/venus.png">
+            </div>
+        </div>
+
+        <p> Venus is very hot and dry (like the cute men on netflix shows). Water is nonexistent on Venus, if you imported water from earth it will boil before you can drink it. Hopefully by the time you read this you have resuable materials that can resist up to 462 degrees celsius. The air pressure is also 90 times greater than the air pressure on earth so don't get squished! Venus sounds impossible in the year 2021 but one day technology may be advance enough to stand Venus's harsh environment.</p>
+        <button class = "back" onclick = "backMercury()"><a href="#top"> < back </a></button>
+        <button class = "next" onclick = "nextEarth()"><a href="#top"> next ></a></button>
+    </div>
+
+    <div id="earth" class = "planets"> 
+        <h2> Earth </h2>
+
+        <div class = "chart"> 
+            <div class = "portfolio">
+                <h3> Portfolio </h3>
+                <table class="table">
+                    <tr>
+                        <th>category</th>
+                        <th>info</th> 
+                    </tr>
+                    <tr>
+                        <td>Temperature</td>
+                        <td>-88 to 58 degrees celsius</td>
+                    </tr>
+                    <tr>
+                        <td>Days in a year</td>
+                        <td>365.24 days</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class = "imgright">
+                <img class = "planetimg" src = "pictures/earth.png">
+            </div>
+        </div>
+        <p> Oh Earth... you had your moment. You were once the star (or really planet) of the show. You are still habitable but insanely hot. However, you want to get out of Earth because it's outdated (maybe one day we can call earth vintage). However, the possibility to move out of earth gets smaller and smaller. Blasting out of Earth becomes more of a game of, "Will my rocket get hit by space pollution and become more space pollution?" Let's keep searching, time is precious! </p>
+        <button class = "back" onclick = "backVenus()"><a href="#top"> < back </a></button>
+        <button class = "next" onclick = "nextMars()"><a href="#top"> next ></a></button>
+    </div>
+
+    <div id="mars" class = "planets"> 
+        <h2> Mars </h2>
+
+        <div class = "chart"> 
+            <div class = "portfolio">
+                <h3> Portfolio </h3>
+                <table class="table">
+                    <tr>
+                        <th>category</th>
+                        <th>info</th> 
+                    </tr>
+                    <tr>
+                        <td>Temperature</td>
+                        <td>-87 to -5 degrees celsius</td>
+                    </tr>
+                    <tr>
+                        <td>Days in a year</td>
+                        <td>687 days</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class = "imgright">
+                <img class = "planetimg" src = "pictures/mars.png">
+            </div> 
+        </div>
+        <p> We have all heard the, "there was once life on Mars," argument but is it true? Nope, you were lied to (I know it hurts ☹ ). There is no proof of past or present life on Mars. There is evidence suggesting that the surface environment of Mars had liquid water and may have been habitable for microorganisms during the ancient Noachian period. While some microbes from Earth can survive on Mars, it doesn't suggest humans can. The radiation, reduced air pressure, and an atmosphere with only 0.16% oxygen makes it close to impossible to live on Mars. Space pollution also poses an issue on Mars! Eight out of 14 orbiting objects in Martian orbit are inactive, which makes more than half of the population around Mars space pollution. Additionally, as rovers and more technology land on Mars, more space pollution will live on Mars. Space pollution on Mars could worsen to the point where it would be difficult to enter or exit the planet without colliding with space pollution.</p>
+        <button class = "back" onclick = "backEarth()"><a href="#top"> < back </a></button>
+        <button class = "next" onclick = "nextJupiter()"><a href="#top"> next ></a></button>
+    </div>
+
+    <div id="jupiter" class = "planets">
+       <h2> Jupiter </h2>
+
+        <div class = "chart">
+            <div class = "portfolio">
+                <h3> Portfolio </h3>
+                <table class="table">
+                    <tr>
+                        <th>category</th>
+                        <th>info</th> 
+                    </tr>
+                    <tr>
+                        <td>Temperature</td>
+                        <td>-108 degrees celsius</td>
+                    </tr>
+                    <tr>
+                        <td>Days in a year</td>
+                        <td>4,333 days (11.9 years)</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class = "imgright">
+                <img class = "planetimg" src = "pictures/jupiter.png">
+            </div>
+        </div>
+        <p> Jupiter is the most complicated planet, but it pulls through. While the conditions on Jupiter make it close to impossible to live on, Jupiter's surroundings have potential. For instance, Jupiters moon Europa, where it is likely that a vast ocean lies beneath its icy crust, where life could possibly be supported. If you imported heat to Europa, you would have a new home! A bonus to living near Jupiter is it rains diamonds! Go get that bag 💰!!!</p>
+
+        <button class = "back" onclick = "backMars()"><a href="#top"> < back </a></button>
+        <button class = "next" onclick = "nextSaturn()"><a href="#top"> next ></a></button>
+    </div> 
+    
+
+    <div id="saturn" class = "planets">
+        <h2> Saturn </h2>
+        <div class = "chart">
+            <div class = "portfolio">
+                <h3> Portfolio </h3>
+                <table class="table">
+                    <tr>
+                        <th>category</th>
+                        <th>info</th> 
+                    </tr>
+                    <tr>
+                        <td>Temperature</td>
+                        <td>-139 degrees celsius</td>
+                    </tr>
+                    <tr>
+                        <td>Days in a year</td>
+                        <td>10,756 days (29.5 years)</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class = "imgright">
+                <img class = "planetimg" src = "pictures/saturn.png">
+            </div>
+        </div>
+        <p> Like Jupiter, Saturn doesn't seem like a plausible place to sustain human life, but its moons have potential, and it also rains diamonds. Saturn moons Enceladus and Titan, which are home to internal oceans, could support life. </p>
+        <button class = "back" onclick = "backJupiter()"><a href="#top"> < back </a></button>
+        <button class = "next" onclick = "nextUranus()"><a href="#top"> next ></a></button>
+    </div>
+
+    <div id="uranus" class = "planets">
+        <h2> Uranus </h2>
+        <div class = "chart">
+            <div class = "portfolio">
+                <h3> Portfolio </h3>
+                <table class="table">
+                    <tr>
+                        <th>category</th>
+                        <th>info</th> 
+                    </tr>
+                    <tr>
+                        <td>Temperature</td>
+                        <td>-197 degrees celsius</td>
+                    </tr>
+                    <tr>
+                        <td>Days in a year</td>
+                        <td>30,687 days (84.07 years)</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class = "imgright">
+                <img class = "planetimg" src = "pictures/uranus.png">
+            </div>
+        </div>
+        <p> Person 1: Where did you move to? </p>
+        <p> Person 2: Uranus :) <i>*cue the laughter* </i></p>
+        <p> As much as I am rooting for you to live out the dialogue above, I have to break the news that Uranus's environment is too hostile (Grey's Anatomy reference!!!). It's too cold, and it is a gas planet, making it unlivable :( </p>
+        <button class = "back" onclick = "backSaturn()"><a href="#top"> < back </a></button>
+        <button class = "next" onclick = "nextNeptune()"><a href="#top"> next ></a></button>
+    </div>
+
+    <div id="neptune" class = "planets">
+       <h2> Neptune </h2>
+        <div class = "chart">
+            <div class = "portfolio">
+                <h3> Portfolio </h3>
+                <table class="table">
+                    <tr>
+                        <th>category</th>
+                        <th>info</th> 
+                    </tr>
+                    <tr>
+                        <td>Temperature</td>
+                        <td>-201 degrees celsius</td>
+                    </tr>
+                    <tr>
+                        <td>Days in a year</td>
+                        <td>164.8 days (164.8 years)</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class = "imgright">
+                <img class = "planetimg" src = "pictures/neptune.png">
+            </div>
+        </div>
+        <p> Neptune purely exists for aesthetic purposes. It can't support life. There isn't much of a solid surface we could live on and there isn't oxygen to breathe. It's also "too cold" but some could say, "The cold never bothered me anyways." </p>
+        <button class = "back" onclick = "backUranus()"><a href="#top"> < back </a></button>
+        <button class = "next" onclick = "nextPluto()"><a href="#top"> next ></a></button>
+    </div>
+
+    <div id="pluto" class = "planets">
+       <h2> Pluto </h2>
+        <div class = "chart">
+            <div class = "portfolio">
+                <h3> Portfolio </h3>
+                <table class="table">
+                    <tr>
+                        <th>category</th>
+                        <th>info</th> 
+                    </tr>
+                    <tr>
+                        <td>Temperature</td>
+                        <td>-226 to -240 degrees celsius</td>
+                    </tr>
+                    <tr>
+                        <td>Days in a year</td>
+                        <td>90,735.35 days (248.59 years)</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class = "imgright">
+                <img class = "planetimg" src = "pictures/pluto.png">
+            </div>
+        </div>
+        <p> I know what you're thinking. Pluto isn't a planet, it's a dwarf planet. I wanted to include our little boy in here :) But... our little dude cannot sustain human life. You would face cosmic radiation, the cold, and never being able to celebrate your birthday. </p>
+        <button class = "back" onclick = "backNeptune()"><a href="#top"> < back </a></button>
+        <button class = "next" onclick = "nextConclusion()"><a href="#top"> next ></a></button>
+    </div>
+    
+    <div id="conclusion" class = "planets">
+        <div class = "chart">
+            <div class = "portfolio">
+                <h2> Well? What do you think about your options? </h2>
+                <p> This is the part where reality sets in and you realized you need to sleep on the idea to move off the Earth. You may be thinking do we have to move? You don't HAVE to, not yet. However, it is important to consider other living options as the earth beings to melt away and feel like Mercury. While nothing is impossible, things take time. Soon enough someone will find a way to live in unlivable Mats. For now, there is no plan B (or at least yet) to the Earth let alone a plan aplhabet.</p>
+            </div> 
+
+            <div class = "imgright">
+                <img class = "planetb" src = "https://www.salfordcvs.co.uk/sites/salfordcvs.co.uk/files/styles/large/public/no%20planet%20b.png?itok=9GodnHXP" alt = "no PLANet B">
+            </div>
+        </div>
+
+        <button class = "back" onclick = "backPluto()"><a href="#top"> < back </a></button>
+        <button class = "nextbig" onclick = "backToBeginning()"><a href="#top"> back to the beginning ></a></button>
+    </div>
+
+    <script src="planetplans.js"></script>
+  </body>
+</html>
